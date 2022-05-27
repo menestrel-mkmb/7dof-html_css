@@ -1,11 +1,8 @@
 .numbers__sect {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    padding: 2rem 0;
 }
 
-.number__title {
+.number__title.title {
     color: var(--color-wine);
     font-size: 3rem;
 }
