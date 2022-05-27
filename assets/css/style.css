@@ -21,3 +21,8 @@ section.full-width {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.testm__sect {
+    margin: 2rem auto;
+    text-align: center;
+}

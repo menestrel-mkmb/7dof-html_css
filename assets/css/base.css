@@ -7,13 +7,16 @@
 
 @import url(jobs/_jobs.css);
 
+@import url(testimony/_testimony.css);
+
 /* VARS */
 :root{
-    --color-almost-white: #F0F0F0;
     --color-almost-black: #101828;
-    --color-wine: #8E2424;
+    --color-almost-white: #F0F0F0;
     --color-dark-grey: #667085;
     --color-light-grey: #EAECF0;
+    --color-wine: #8E2424;
+    --color-red-light: #C3191908;
 }
 
 .button {
@@ -48,6 +51,11 @@
     text-align: center;
 }
 
-.center__sect section {
-    text-align: start;
+h3.job__title {
+    text-align: justify;
+}
+
+.img {    
+    max-width: 100%;
+    object-fit: contain;
 }
