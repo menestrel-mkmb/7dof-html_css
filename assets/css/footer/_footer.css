@@ -5,8 +5,8 @@
 }
 
 .copyrigth__text.text {
-    color: var(--color-light-grey);
+    color: var(--color-almost-black);
     text-align: center;
 
-    margin: 2rem 0;
+    margin-top: 1rem;
 }
