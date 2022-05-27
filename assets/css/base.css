@@ -9,24 +9,6 @@
     --color-dark-grey: #667085;
 }
 
-.partial-html {
-    width: 100%;
-}
-
-.top {
-    position: fixed;
-    top: 0;
-
-    width: 100%;
-}
-
-.bottom {
-    position: fixed;
-    bottom: 0;
-
-    width: 100%;
-}
-
 .button {
     background-color: var(--color-wine);
     color: var(--color-almost-white);
