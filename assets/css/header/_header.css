@@ -1,0 +1,10 @@
+.header__sect{
+    background-color: var(--color-almost-white);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2rem;
+}

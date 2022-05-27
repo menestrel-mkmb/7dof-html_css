@@ -1,0 +1,16 @@
+.numbers__sect {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.number__title {
+    color: var(--color-wine);
+    font-size: 3rem;
+}
+
+.number__div.child {
+    text-align: center;
+    width: 20%;
+}

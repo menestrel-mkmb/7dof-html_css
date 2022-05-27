@@ -1,0 +1,35 @@
+@import url(header/_header.css);
+@import url(header/_header-btns.css);
+@import url(header/_header-nav.css);
+
+@import url(banner/_banner.css);
+@import url(banner/_numbers.css);
+
+/* VARS */
+:root{
+    --color-almost-white: #F0F0F0;
+    --color-wine: #8E2424;
+    --color-dark-grey: #667085;
+}
+
+.button {
+    background-color: var(--color-wine);
+    color: var(--color-almost-white);
+    
+    border: none;
+    border-radius: 10%;
+
+    padding: 1rem;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.sub-title {
+    color: var(--color-wine);
+}

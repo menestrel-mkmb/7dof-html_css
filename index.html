@@ -5,11 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/css/base.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
     <title>7 Days of Code - HTML & CSS</title>
 </head>
 <body>
+    <!-- HEADER -->
+    <header class="header__sect menu"></header>
+
+    <!-- CONTENT -->
+    <main class="main__sect content"></main>
+
+    <!-- FOOTER -->
+    <footer class="footer__sect foot"></footer>
+
+    <!-- SCRIPTS -->
+    <script>
+        $(".header__sect").load("./static/partials/header.html");
+        $(".main__sect").load("./static/content/home.html");
+        $(".footer__sect").load("./static/partials/footer.html");
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
