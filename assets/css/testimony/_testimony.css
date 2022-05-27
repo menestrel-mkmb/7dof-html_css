@@ -1,0 +1,12 @@
+.testimony__element {
+    background-color: var(--color-red-light);
+    border-radius: 0.5rem;
+
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.figc strong {
+    display: block;
+    font-weight: 700;
+}
