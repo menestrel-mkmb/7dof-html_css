@@ -1,0 +1,21 @@
+.jobs__img {
+    border-radius: 5%;
+}
+
+.job__element {
+    border: 1px var(--color-light-grey) solid;
+    border-radius: 1rem;
+    
+    padding: 1rem;
+    width: 100%;
+}
+
+.job-desc__div {
+    display: flex;
+    flex-direction: row;
+}
+
+.job__title{
+    align-self: flex-start;
+    margin: 2rem 0 1rem 0;
+}
