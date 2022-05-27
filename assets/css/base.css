@@ -20,9 +20,6 @@
 }
 
 .button {
-    background-color: var(--color-wine);
-    color: var(--color-almost-white);
-    
     border: none;
     border-radius: 10%;
 
