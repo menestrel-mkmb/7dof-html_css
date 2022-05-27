@@ -5,11 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/css/base.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
     <title>7 Days of Code - HTML & CSS</title>
 </head>
 <body>
+    <!-- HEADER -->
+    <header class="header__sect menu">
+        <figure class="logo__fig">
+            <a href="#" class="logo__link home__link">
+                <img src="assets/img/logo.svg" alt="" class="logo__img img">
+            </a>
+        </figure>
+        <nav class="menu__nav">
+            <ul class="menu__ul">
+                <li class="menu__item menu__item--1"><a href="#" class="menu__link link menu__link--1">Home</a></li>
+                <li class="menu__item menu__item--2"><a href="#" class="menu__link link menu__link--2">Produtos</a></li>
+                <li class="menu__item menu__item--3"><a href="#" class="menu__link link menu__link--3">Recursos</a></li>
+                <li class="menu__item menu__item--4"><a href="#" class="menu__link link menu__link--4">Sobre nós</a></li>
+            </ul>
+        </nav>
+        <div class="btns__div">
+            <button class="login-menu__btn login__btn button">Entrar</button>
+            <button class="login-menu__btn sign-up__btn button">Cadastrar</button>
+        </div>
+    </header>
+
+    <!-- CONTENT -->
+    <main class="main__sect content">
+        <p>Home content</p>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer__sect bottom foot">
+        <p>Footer content</p>
+    </footer>
+
+    <!-- SCRIPTS -->
     <script src="script.js"></script>
 </body>
 </html>

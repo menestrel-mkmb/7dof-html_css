@@ -1,0 +1,10 @@
+.menu__ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.menu__link {
+    color: var(--color-dark-grey);
+    text-transform: uppercase;
+}
