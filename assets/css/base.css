@@ -9,6 +9,9 @@
 
 @import url(testimony/_testimony.css);
 
+@import url(footer/_footer.css);
+@import url(footer/_newsletter.css);
+
 /* VARS */
 :root{
     --color-almost-black: #101828;
