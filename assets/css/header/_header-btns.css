@@ -2,3 +2,13 @@
     margin: 0 0.5rem;
     text-transform: uppercase;
 }
+
+.login__brn {
+    background-color: var(--color-almost-white);
+    color: var(--color-wine);
+}
+
+.sign-up__btn {
+    background-color: var(--color-wine);
+    color: var(--color-almost-white);
+}

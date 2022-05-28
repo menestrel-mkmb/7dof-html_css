@@ -1,0 +1,12 @@
+.footer__sect {
+    background-color: var(--color-light-grey);
+
+    padding: 2rem 4rem;
+}
+
+.copyrigth__text.text {
+    color: var(--color-almost-black);
+    text-align: center;
+
+    margin-top: 1rem;
+}
